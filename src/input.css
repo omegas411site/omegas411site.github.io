@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@theme {
+    --color-sunbg: #FDF8F4;
+    --color-sunborder: #C3BEB6;
+    --color-sunbrown: #936D42;
+    --color-sunblack: #433E37;
+    --color-sunblack-hover: #7A756A;
+    --font-serif: "Spectral", serif;
+    --font-sans: "Poppins", sans-serif;
+  }
+
+.nav {
+    transition:opacity 5s linear;
+}
